@@ -1453,7 +1453,7 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, fak
 
                 return randomIP.join('.');
             }
-            addresses = addresses.concat('127.0.0.1:1234#CFnat');
+            addresses = addresses.concat('127.0.0.1:1234#YING VPN｜仅供工作学习使用');
             let counter = 1;
             if (hostName.includes("worker") || hostName.includes("notls")) {
                 const randomPorts = httpPorts.concat('80');
